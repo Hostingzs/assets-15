@@ -1,0 +1,1251 @@
+{
+  "version": 1,
+  "missions": [
+    {
+      "type": "stuntmission",
+      "name": "Land a 360",
+      "description": "Spin that car! One full rotation in the air and land on your wheels.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [ {
+        "type": "starttrigger",
+        "position": [
+          44.83,
+          0,
+          114.32
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 300,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "360": 1
+      }
+    },
+    {
+      "type": "stuntmission",
+      "name": "Do a barrel roll!",
+      "description": "Launch your car and spin lengthwise all the way around.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          180.6,
+          0,
+          46.22
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 300,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "barrelroll": 1
+      }
+    },
+    {
+      "type": "bonusstatmission",
+      "name": "Catch some air time",
+      "description": "Build up an Air Time Bonus of 1000",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          278.3,
+          10.002,
+          -31.114
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 300,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "air": 1000
+      }
+    },
+    {
+      "type": "checkpointrace",
+      "name": "Around the Block",
+      "description": "A quick race around the block",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 250
+      },
+      "locations": [
+        {
+          "type": "starttrigger",
+          "position": [
+            -21.134477615356445,
+            3.552713678800501e-13,
+            -39.61135482788086
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            9.6658935546875,
+            9.805489753489383e-13,
+            -37.11072540283203
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            45.57782745361328,
+            2.842170943040401e-14,
+            -33.029388427734375
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            49.66791534423828,
+            0,
+            51.92205810546875
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            10.001836776733398,
+            0,
+            51.56568145751953
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -29.59227180480957,
+            0,
+            52.355567932128906
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racefinish",
+          "position": [
+            -30.08568000793457,
+            -1.7053025658242404e-13,
+            -38.057106018066406
+          ],
+          "radius": 5
+        }
+      ],
+      "allLocationsVisible": false,
+      "maxTime": 30,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {}
+    },
+    {
+      "type": "checkpointrace",
+      "name": "Around the Lighthouse",
+      "description": "Race from the bridge to the lighthouse and back.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [
+        {
+          "type": "starttrigger",
+          "position": [
+            94.56410217285156,
+            5,
+            -67.39078521728516
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            63.36609649658203,
+            0,
+            -67.39078521728516
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -10.267180442810059,
+            0,
+            -67.39078521728516
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -30.289737701416016,
+            -1.4210854715202004e-14,
+            -51.97772979736328
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -30.289737701416016,
+            -1.4210854715202004e-14,
+            -7.197641372680664
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -80.57054901123047,
+            -1.4210854715202004e-14,
+            -7.197641372680664
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -155.36553955078125,
+            -2.8421709430404007e-13,
+            -3.652385711669922
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -168.552001953125,
+            -3.268496584496461e-13,
+            22.27631950378418
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -220.4315643310547,
+            -5.115907697472721e-13,
+            14.989831924438477
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -250.02101135253906,
+            -5.400124791776761e-13,
+            14.363064765930176
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -239.86920166015625,
+            -5.258016244624741e-13,
+            41.995792388916016
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -221.10195922851562,
+            1.2789769243681803e-12,
+            31.044017791748047
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -212.10874938964844,
+            1.1652900866465643e-12,
+            22.610868453979492
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -160.47349548339844,
+            1.2931877790833823e-12,
+            28.618799209594727
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -145.95013427734375,
+            1.3073986337985843e-12,
+            52.78065490722656
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -80.96131134033203,
+            2.7995383788947947e-12,
+            42.1982536315918
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -72.06832122802734,
+            4.604316927725449e-12,
+            -7.322209358215332
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -30.133827209472656,
+            4.433786671143025e-12,
+            -16.35672378540039
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -21.427186965942383,
+            6.366462912410498e-12,
+            -66.4794921875
+          ],
+          "radius": 4.5
+        },
+        {
+          "type": "racefinish",
+          "position": [
+            94.82329559326172,
+            5,
+            -67.53491973876953
+          ],
+          "radius": 8
+        }
+      ],
+      "allLocationsVisible": false,
+      "maxTime": 60,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {}
+    },
+    {
+      "type": "pickupdropoff",
+      "name": "Johnny's late for school!",
+      "description": "Johnny missed the school bus. Get him to school in time.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 250
+      },
+      "locations": [
+        {
+          "type": "boxpickup",
+          "position": [
+            207.547607421875,
+            2.842170943040401e-14,
+            36.50808334350586
+          ],
+          "radius": 5
+        },
+        {
+          "type": "boxdropoff",
+          "position": [
+            11.778851509094238,
+            -1.4210854715202004e-13,
+            -74.44290924072266
+          ],
+          "radius": 5
+        }
+      ],
+      "allLocationsVisible": false,
+      "maxTime": 30,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "Lights Out!",
+      "description": "Destroy 5 lampposts",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [ {
+        "type": "starttrigger",
+        "position": [
+         -81,
+          0,
+          -8
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 180,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 5,
+      "collisionTag": "lamppost",
+      "uniqueCollisions": false,
+      "things": [
+        "lamp post",
+        "lamp posts"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "Clear the foliage!",
+      "description": "Destroy 20 trees.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 500
+      },
+      "locations": [ {
+        "type": "starttrigger",
+        "position": [
+         -160.5,
+          0,
+          102.5
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 60,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 20,
+      "collisionTag": "tree",
+      "uniqueCollisions": false,
+      "things": [
+        "tree",
+        "trees"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "Burgers are best!",
+      "description": "The owner of the burger joint has declared war on the hotdog sellers. Smash 10 hotdog stands.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 2000
+      },
+      "locations": [
+        {
+          "type": "starttrigger",
+          "position": [
+            -92.64814758300781,
+            -1.0658141036401503e-13,
+            52
+          ],
+          "radius": 5
+        }
+      ],
+      "allLocationsVisible": false,
+      "maxTime": 300,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 10,
+      "collisionTag": "hotdog",
+      "uniqueCollisions": true,
+      "things": [
+        "Hot Dog Stand",
+        "Hot Dog Stands"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "pickupdropoff",
+      "name": "Deliver the package",
+      "description": "Here's a mysterious package to deliver.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [
+        {
+          "type": "boxpickup",
+          "position": [
+            -62.325958251953125,
+            -1.1368683772161603e-13,
+            -96.00906372070312
+          ],
+          "radius": 5
+        },
+        {
+          "type": "boxdropoff",
+          "position": [
+            43.50733947753906,
+            -8.526512829121202e-14,
+            16.429187774658203
+          ],
+          "radius": 5
+        }
+      ],
+      "allLocationsVisible": false,
+      "maxTime": 20,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "Hit the Big Donut",
+      "description": "Knock the big donut off the Donut Shop roof",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 2000
+      },
+      "locations": [ {
+        "type": "starttrigger",
+        "position": [
+         -57,
+          10,
+          21.5
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 60,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 1,
+      "collisionTag": "donut",
+      "uniqueCollisions": false,
+      "things": [
+        "Donut",
+        "Donuts"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "checkpointrace",
+      "name": "Beach Race",
+      "description": "Complete a full lap of the beach race course",
+      "minLevel": 5,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [
+        {
+          "type": "starttrigger",
+          "position": [
+            16.988683700561523,
+            -9.268194198608398,
+            201.821533203125
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            2.766012668609619,
+            -9.153631210327148,
+            195.04949951171875
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -64.46022033691406,
+            -8.967599868774414,
+            189.67494201660156
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -128.79962158203125,
+            -8.556631088256836,
+            197.63790893554688
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -129.51502990722656,
+            -9.279990196228027,
+            255.76730346679688
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -64.9976577758789,
+            -11.099052429199219,
+            257.6109924316406
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            -29.140182495117188,
+            -9.6962251663208,
+            235.46670532226562
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            0.4071926176548004,
+            -9.505851745605469,
+            236.8264617919922
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            28.63374900817871,
+            -9.937928199768066,
+            258.6974792480469
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            35.81545639038086,
+            -9.222677230834961,
+            232.37344360351562
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racecheckpoint",
+          "position": [
+            16.303434371948242,
+            -9.31239128112793,
+            160.1119384765625
+          ],
+          "radius": 5
+        },
+        {
+          "type": "racefinish",
+          "position": [
+            17.051298141479492,
+            -3.183231456205249e-12,
+            117.06575775146484
+          ],
+          "radius": 10
+        }
+      ],
+      "allLocationsVisible": false,
+      "maxTime": 60,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "The Postman Knocks Twice",
+      "description": "Knock over 2 mailboxes",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 500
+      },
+      "locations": [
+        {
+          "type": "starttrigger",
+          "position": [
+            -71,
+            -5.684341886080802e-14,
+            -71
+          ],
+          "radius": 5
+        }
+      ],
+      "allLocationsVisible": false,
+      "maxTime": 90,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 2,
+      "collisionTag": "mailbox",
+      "uniqueCollisions": true,
+      "things": [
+        "mailbox",
+        "mailboxes"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "Cause Watery Chaos",
+      "description": "Let's get this city wet! Smash 10 fire hydrants.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [ {
+        "type": "starttrigger",
+        "position": [
+         -121.5,
+          0,
+          29
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 300,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 10,
+      "collisionTag": "firehydrant",
+      "uniqueCollisions": true,
+      "things": [
+        "hydrant",
+        "hydrants"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "stuntmission",
+      "name": "Land a back flip!",
+      "description": "Get upside down! Land a complete backflip to earn the reward.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          149.0,
+          0,
+          -68.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "backflip": 1
+      }
+    },
+    {
+      "type": "stuntmission",
+      "name": "Land a front flip!",
+      "description": "Get upside down! Flip forward end over end and land on your wheels.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          169.0,
+          0,
+          -68.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "frontflip": 1
+      }
+    },
+    {
+      "type": "bonusstatmission",
+      "name": "Hit your top speed!",
+      "description": "Reach a speed of 70 MPH",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 500
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          149.0,
+          0,
+          6
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 60,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "maxspeed": 70
+      }
+    },
+    {
+      "type": "hitxthings",
+      "name": "Clear the foliage! Again!",
+      "description": "Destroy 50 trees!",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          226.0,
+          0,
+          48.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 300,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 50,
+      "collisionTag": "tree",
+      "uniqueCollisions": false,
+      "things": [
+        "tree",
+        "trees"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "stuntmission",
+      "name": "Land 2 360s",
+      "description": "Spin that car! Land 2 360s to earn the reward.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1500
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          296.0,
+          16.631,
+          79.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "360": 2
+      }
+    },
+    {
+      "type": "bonusstatmission",
+      "name": "Drift like a pro",
+      "description": "Build up a Drifting Bonus of 1000.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          209.0,
+          0,
+          17.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "drift": 1000
+      }
+    },
+    {
+      "type": "bonusstatmission",
+      "name": "What's the speed limit again?",
+      "description": "Build up a Speeding Bonus of 1000",
+      "minLevel": 3,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          -220.0,
+          0,
+          22.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "speed": 1000
+      }
+    },
+    {
+      "type": "hitxthings",
+      "name": "Hit the Big Bowling Pin",
+      "description": "Knock the Big Bowling Pin off the roof of the building",
+      "minLevel": 5,
+      "reward": {
+        "type": "xp",
+        "value": 2000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          180.0,
+          0,
+          92.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 1,
+      "collisionTag": "bowlingpin",
+      "uniqueCollisions": true,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "Hit the Big Burger",
+      "description": "Knock the Big Burger off the roof of the Burger Shop",
+      "minLevel": 1,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          -100.0,
+          0,
+          21.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 1,
+      "collisionTag": "burger",
+      "uniqueCollisions": true,
+      "things": [
+        "burger",
+        "burgers"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "Hit the Big Milkshake",
+      "description": "Knock the Big Milkshake off the roof of the shop.",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1500
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          -138.7,
+          0,
+          -24.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 1,
+      "collisionTag": "milkshake",
+      "uniqueCollisions": true,
+      "things": [
+        "Milkshake",
+        "Milkshakes"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "Hit the Big Pizza Slice",
+      "description": "Knock the Big Pizza Slice off the roof of the restaurant",
+      "minLevel": 2,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          -5.30,
+          0,
+          27.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 1,
+      "collisionTag": "pizza",
+      "uniqueCollisions": true,
+      "things": [
+        "pizza slice",
+        "pizza slices"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "The Postman Knocks 10 Times",
+      "description": "Knock over 10 mailboxes",
+      "minLevel": 4,
+      "reward": {
+        "type": "xp",
+        "value": 2000
+      },
+      "locations": [
+        {
+          "type": "starttrigger",
+          "position": [
+            33,
+            0,
+            26.5
+          ],
+          "radius": 5
+        }
+      ],
+      "allLocationsVisible": false,
+      "maxTime": 300,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 10,
+      "collisionTag": "mailbox",
+      "uniqueCollisions": true,
+      "things": [
+        "mailbox",
+        "mailboxes"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "hitxthings",
+      "name": "More Lights Out!",
+      "description": "Destroy 10 Lamp Posts",
+      "minLevel": 4,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          9.0,
+          0,
+          52.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 180,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 10,
+      "collisionTag": "lamppost",
+      "uniqueCollisions": true,
+      "things": [
+        "lamp post",
+        "lamp posts"
+      ],
+      "stats": {}
+    },
+    {
+      "type": "bonusstatmission",
+      "name": "Faster, Faster, Faster!",
+      "description": "Reach a speed of 100 MPH",
+      "minLevel": 0,
+      "reward": {
+        "type": "xp",
+        "value": 1000
+      },
+      "locations": [{
+        "type": "starttrigger",
+        "position": [
+          -50.0,
+          0,
+          -68.0
+        ],
+        "radius": 5
+      }],
+      "allLocationsVisible": false,
+      "maxTime": 120,
+      "failOnTimer": true,
+      "triggeredStart": true,
+      "count": 0,
+      "collisionTag": "",
+      "uniqueCollisions": false,
+      "things": [
+        "",
+        ""
+      ],
+      "stats": {
+        "maxspeed": 100
+      }
+    }
+  ]
+}

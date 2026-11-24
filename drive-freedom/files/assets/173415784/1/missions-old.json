@@ -1,0 +1,110 @@
+{
+    "missions": [
+        {
+            "type": "hitxthings",
+            "name": "Watery Chaos in the City",
+            "description": "Knock down 10 Fire Hydrants",
+            "reward": {
+                "type": "xp",
+                "value": 100
+            },
+            "locations": [],
+            "collisionTag": "fire-hydrant",
+            "count": 4,
+            "things": ["fire hydrant", "fire hydrants"],
+            "allLocationsVisible": false
+        }, {
+            "type": "hitxthings",
+            "name": "Destroy the Hot Dog Industry",
+            "description": "I hate hot dogs, knock over 10 hot dog carts",
+            "reward": {
+                "type": "xp",
+                "value": 100
+            },
+            "locations": [{
+                "type": 2,
+                "position": [-52, 10, 90],
+                "radius": 5
+            }],
+            "collisionTag": "hotdog",
+            "count": 4,
+            "things": ["hot dog cart", "hot dog carts"],
+            "allLocationsVisible": false,
+            
+            "triggeredStart": true,
+            "maxTime": 60,
+            "failOnTimer": true
+        }, {
+            "type": "pickupdropoff",
+            "name": "School Run",
+            "description": "Pick up Johnny from outside his apartment and take him to school.",
+            "reward": {
+                "type": "coins",
+                "value": 100
+            },
+            "locations": [
+                {
+                    "type": 0,
+                    "position": [-67, 10, 50],
+                    "radius": 5
+                },
+                {
+                    "type": 1,
+                    "position": [-104, 15, -91],
+                    "radius": 5
+                }
+            ],
+            "triggeredStart": true,
+            "allLocationsVisible": false,
+            "maxTime": 60,
+            "failOnTimer": true
+        }, {
+            "type": "checkpointrace",
+            "name": "Beat the clock!",
+            "description": "Race through the checkpoints",
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "locations": [
+                {
+                    "type": 2,
+                    "position": [-52, 10, 90],
+                    "radius": 5
+                }, {
+                    "type": 2,
+                    "position": [-52, 10, 57],
+                    "radius": 5
+                }, {
+                    "type": 2,
+                    "position": [-59, 10, -20],
+                    "radius": 5
+                }, {
+                    "type": 2,
+                    "position": [-111, 10, -22],
+                    "radius": 5
+                }, {
+                    "type": 2,
+                    "position": [-108, 10, -56],
+                    "radius": 5
+                }, {
+                    "type": 2,
+                    "position": [-34, 10, -61],
+                    "radius": 5
+                }, {
+                    "type": 2,
+                    "position": [-51, 10, 18],
+                    "radius": 5
+                }, {
+                    "type": 3,
+                    "position": [-52, 10, 90],
+                    "radius": 5
+                }
+            ],
+            "triggeredStart": true,
+            "allLocationsVisible": false,
+            "maxTime": 60,
+            "failOnTimer": true
+        }
+    ]
+}

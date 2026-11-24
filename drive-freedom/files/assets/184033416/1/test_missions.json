@@ -1,0 +1,133 @@
+{
+    "version": 1,
+    "missions" : [
+        {
+            "type": "stuntmission",
+            "name": "360",
+            "description": "Get a 360",
+            "minLevel": 0,
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "stats": {
+                "360": 1
+            },
+            "triggeredStart": false,
+            "locations": []
+        },
+        {
+            "type": "stuntmission",
+            "name": "2x 360",
+            "description": "Get 2 360s",
+            "minLevel": 0,
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "stats": {
+                "360": 2
+            },
+            "triggeredStart": false,
+            "locations": []
+        },
+        {
+            "type": "stuntmission",
+            "name": "Flip",
+            "description": "Do a backflip",
+            "minLevel": 0,
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "stats": {
+                "backflip": 1
+            },
+            "triggeredStart": false,
+            "locations": []
+        },
+        {
+            "type": "stuntmission",
+            "name": "FrontFlip",
+            "description": "Do a front flip",
+            "minLevel": 0,
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "stats": {
+                "front": 1
+            },
+            "triggeredStart": false,
+            "locations": []
+        }, {
+            "type": "stuntmission",
+            "name": "Barrel Roll",
+            "description": "Do a barrel roll",
+            "minLevel": 0,
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "stats": {
+                "barrelroll": 1
+            },
+            "triggeredStart": false,
+            "locations": []
+        },
+        {
+            "type": "bonusstatmission",
+            "name": "Drift",
+            "description": "Get a Drifting Bonus of 1000.",
+            "minLevel": 3,
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "stats": {
+                "drift": 1000
+            },
+            "triggeredStart": false,
+            "locations": []
+        }, {        
+            "type": "bonusstatmission",
+            "name": "Air",
+            "description": "Get Air Time Bonus of 1000",
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "stats": {
+                "air": 1000
+            },
+            "triggeredStart": false,
+            "locations": []
+        }, {        
+            "type": "bonusstatmission",
+            "name": "Speed",
+            "description": "Get Speeding Bonus of 1000",
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "stats": {
+                "speed": 1000
+            },
+            "triggeredStart": false,
+            "locations": []
+        },  {        
+            "type": "bonusstatmission",
+            "name": "Max Speed",
+            "description": "Reach Max Speed of 100 MPH",
+            "reward": {
+                "type": "xp",
+                "value": 1000
+            },
+            "stats": {
+                "maxspeed": 100
+            },
+            "triggeredStart": false,
+            "locations": []
+        }
+    ]
+}

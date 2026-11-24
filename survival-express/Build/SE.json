@@ -1,0 +1,11 @@
+{
+"companyName": "UAB Applava",
+"productName": "Survival Express",
+"dataUrl": "SE.data.unityweb",
+"asmCodeUrl": "SE.asm.code.unityweb",
+"asmMemoryUrl": "SE.asm.memory.unityweb",
+"asmFrameworkUrl": "SE.asm.framework.unityweb",
+"TOTAL_MEMORY": 104857600,
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}

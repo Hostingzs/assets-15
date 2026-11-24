@@ -1,0 +1,47 @@
+anteros:
+speed: 2/5
+accel: 3/5
+suspension: 3/5
+toughness: 3/5
+
+aniara:
+speed: 3/5
+accel: 3/5
+suspension: 3/5
+toughness: 3/5
+
+aclyone:
+speed: 4/5
+accel: 2/5
+suspension: 5/5
+toughness: 4/5
+
+ambo:
+speed: 2/5
+accel: 1/5
+suspension: 2/5
+toughness: 3/5
+
+white van
+speed: 2/5
+accel: 3/5
+suspension: 3/5
+toughness: 3/5
+
+clymene:
+speed: 4/5
+accel: 3/5
+suspension: 3/5
+toughness: 5/5
+
+boar:
+speed: 4/5
+accel: 4/5
+suspension: 2/5
+toughness: 2/5
+
+gaia:
+speed: 5/5
+accel: 5/5
+suspension: 2/5
+toughness: 1/5
